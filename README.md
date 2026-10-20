@@ -29,7 +29,7 @@ ollama pull qwen3:30b                               # only needed for ollama: mo
 
 `lab.run` resumes: re-running with the same `--out` skips finished runs.
 
-## Results (run of 2026-10-18, code at commit `d5b2eb9`)
+## Results (run of 2026-10-18, code frozen at commit `349aea6`)
 
 540 runs = 9 cases × 3 configs × 10 repetitions × 2 models, 0 errors. Full tables:
 [`results/run-2026-10-18/results.md`](results/run-2026-10-18/results.md); every transcript is in `runs.jsonl`.
