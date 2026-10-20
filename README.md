@@ -63,6 +63,10 @@ ollama pull qwen3:30b                               # only needed for ollama: mo
 
 ### Honest limits
 
+- Config C is OWASP's own recommendation ([LLM06:2025 Excessive Agency](https://genai.owasp.org/llmrisk/llm062025-excessive-agency/):
+  "Implement authorization in downstream systems rather than relying on an LLM to decide if an action
+  is allowed or not"). This lab measures what happens with and without it; it does not discover it.
+
 - **C's 0% is guaranteed by design**, because the oracle and the enforcement use the same policy.
   The experiment's value is showing that guarantee holding with real models in the loop
   (forged arguments, multi-step chains) while legitimate work still completes, next to how A and B behave.
