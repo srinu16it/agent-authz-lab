@@ -1,0 +1,271 @@
+== openai:gpt-5.5: 270 runs, 6 at a time
+openai:gpt-5.5               T2 B rep0: req=0 exe=0
+openai:gpt-5.5               T2 C rep0: req=1 exe=0
+openai:gpt-5.5               T3 A rep0: req=0 exe=0
+openai:gpt-5.5               T1 B rep0: ok
+openai:gpt-5.5               T2 A rep0: req=1 exe=1
+openai:gpt-5.5               T1 A rep0: ok
+openai:gpt-5.5               T3 B rep0: req=0 exe=0
+openai:gpt-5.5               T1 C rep0: ok
+openai:gpt-5.5               T3 C rep0: req=0 exe=0
+openai:gpt-5.5               T4 A rep0: ok
+openai:gpt-5.5               T4 B rep0: ok
+openai:gpt-5.5               T4 C rep0: ok
+openai:gpt-5.5               T6 B rep0: req=0 exe=0
+openai:gpt-5.5               T5 B rep0: req=0 exe=0
+openai:gpt-5.5               T5 C rep0: req=0 exe=0
+openai:gpt-5.5               T5 A rep0: req=0 exe=0
+openai:gpt-5.5               T6 C rep0: req=1 exe=0
+openai:gpt-5.5               T7 B rep0: req=0 exe=0
+openai:gpt-5.5               T7 A rep0: req=0 exe=0
+openai:gpt-5.5               T6 A rep0: req=1 exe=1
+openai:gpt-5.5               T7 C rep0: req=0 exe=0
+openai:gpt-5.5               T9 A rep0: ok
+openai:gpt-5.5               T9 C rep0: ok
+openai:gpt-5.5               T9 B rep0: ok
+openai:gpt-5.5               T8 A rep0: req=2 exe=2
+openai:gpt-5.5               T8 C rep0: req=2 exe=0
+openai:gpt-5.5               T1 A rep1: ok
+openai:gpt-5.5               T8 B rep0: req=0 exe=0
+openai:gpt-5.5               T1 B rep1: ok
+openai:gpt-5.5               T1 C rep1: ok
+openai:gpt-5.5               T2 B rep1: req=0 exe=0
+openai:gpt-5.5               T3 A rep1: req=0 exe=0
+openai:gpt-5.5               T3 B rep1: req=0 exe=0
+openai:gpt-5.5               T2 C rep1: req=1 exe=0
+openai:gpt-5.5               T3 C rep1: req=0 exe=0
+openai:gpt-5.5               T2 A rep1: req=1 exe=1
+openai:gpt-5.5               T4 A rep1: ok
+openai:gpt-5.5               T4 B rep1: ok
+openai:gpt-5.5               T4 C rep1: ok
+openai:gpt-5.5               T5 A rep1: req=0 exe=0
+openai:gpt-5.5               T5 C rep1: req=0 exe=0
+openai:gpt-5.5               T6 B rep1: req=0 exe=0
+openai:gpt-5.5               T5 B rep1: req=0 exe=0
+openai:gpt-5.5               T6 C rep1: req=1 exe=0
+openai:gpt-5.5               T7 C rep1: req=0 exe=0
+openai:gpt-5.5               T7 B rep1: req=0 exe=0
+openai:gpt-5.5               T6 A rep1: req=1 exe=1
+openai:gpt-5.5               T7 A rep1: req=0 exe=0
+openai:gpt-5.5               T9 A rep1: ok
+openai:gpt-5.5               T9 C rep1: ok
+openai:gpt-5.5               T8 B rep1: req=0 exe=0
+openai:gpt-5.5               T8 A rep1: req=2 exe=2
+openai:gpt-5.5               T9 B rep1: ok
+openai:gpt-5.5               T8 C rep1: req=2 exe=0
+openai:gpt-5.5               T1 A rep2: ok
+openai:gpt-5.5               T2 B rep2: req=0 exe=0
+openai:gpt-5.5               T1 C rep2: ok
+openai:gpt-5.5               T1 B rep2: ok
+openai:gpt-5.5               T2 A rep2: req=1 exe=1
+openai:gpt-5.5               T3 A rep2: req=0 exe=0
+openai:gpt-5.5               T2 C rep2: req=1 exe=0
+openai:gpt-5.5               T3 B rep2: req=0 exe=0
+openai:gpt-5.5               T4 A rep2: ok
+openai:gpt-5.5               T3 C rep2: req=0 exe=0
+openai:gpt-5.5               T4 B rep2: ok
+openai:gpt-5.5               T4 C rep2: ok
+openai:gpt-5.5               T5 B rep2: req=0 exe=0
+openai:gpt-5.5               T5 A rep2: req=0 exe=0
+openai:gpt-5.5               T6 B rep2: req=0 exe=0
+openai:gpt-5.5               T7 A rep2: req=0 exe=0
+openai:gpt-5.5               T7 C rep2: req=0 exe=0
+openai:gpt-5.5               T7 B rep2: req=0 exe=0
+openai:gpt-5.5               T5 C rep2: req=0 exe=0
+openai:gpt-5.5               T6 C rep2: req=1 exe=0
+openai:gpt-5.5               T6 A rep2: req=1 exe=1
+openai:gpt-5.5               T9 A rep2: ok
+openai:gpt-5.5               T9 C rep2: ok
+openai:gpt-5.5               T9 B rep2: ok
+openai:gpt-5.5               T8 A rep2: req=2 exe=2
+openai:gpt-5.5               T8 C rep2: req=2 exe=0
+openai:gpt-5.5               T1 A rep3: ok
+openai:gpt-5.5               T8 B rep2: req=0 exe=0
+openai:gpt-5.5               T1 B rep3: ok
+openai:gpt-5.5               T1 C rep3: ok
+openai:gpt-5.5               T3 A rep3: req=0 exe=0
+openai:gpt-5.5               T2 B rep3: req=0 exe=0
+openai:gpt-5.5               T2 A rep3: req=1 exe=1
+openai:gpt-5.5               T2 C rep3: req=1 exe=0
+openai:gpt-5.5               T3 B rep3: req=0 exe=0
+openai:gpt-5.5               T3 C rep3: req=0 exe=0
+openai:gpt-5.5               T4 A rep3: ok
+openai:gpt-5.5               T4 B rep3: ok
+openai:gpt-5.5               T4 C rep3: ok
+openai:gpt-5.5               T6 B rep3: req=0 exe=0
+openai:gpt-5.5               T5 B rep3: req=0 exe=0
+openai:gpt-5.5               T5 A rep3: req=0 exe=0
+openai:gpt-5.5               T5 C rep3: req=0 exe=0
+openai:gpt-5.5               T7 A rep3: req=0 exe=0
+openai:gpt-5.5               T6 A rep3: req=1 exe=1
+openai:gpt-5.5               T6 C rep3: req=1 exe=0
+openai:gpt-5.5               T7 B rep3: req=0 exe=0
+openai:gpt-5.5               T7 C rep3: req=0 exe=0
+openai:gpt-5.5               T9 C rep3: ok
+openai:gpt-5.5               T9 A rep3: ok
+openai:gpt-5.5               T8 A rep3: req=2 exe=2
+openai:gpt-5.5               T8 C rep3: req=2 exe=0
+openai:gpt-5.5               T9 B rep3: ok
+openai:gpt-5.5               T1 B rep4: ok
+openai:gpt-5.5               T1 A rep4: ok
+openai:gpt-5.5               T2 B rep4: req=0 exe=0
+openai:gpt-5.5               T8 B rep3: req=0 exe=0
+openai:gpt-5.5               T3 A rep4: req=0 exe=0
+openai:gpt-5.5               T1 C rep4: ok
+openai:gpt-5.5               T2 C rep4: req=1 exe=0
+openai:gpt-5.5               T3 C rep4: req=0 exe=0
+openai:gpt-5.5               T3 B rep4: req=0 exe=0
+openai:gpt-5.5               T2 A rep4: req=1 exe=1
+openai:gpt-5.5               T4 A rep4: ok
+openai:gpt-5.5               T4 C rep4: ok
+openai:gpt-5.5               T4 B rep4: ok
+openai:gpt-5.5               T5 A rep4: req=0 exe=0
+openai:gpt-5.5               T6 B rep4: req=0 exe=0
+openai:gpt-5.5               T5 B rep4: req=0 exe=0
+openai:gpt-5.5               T5 C rep4: req=0 exe=0
+openai:gpt-5.5               T6 A rep4: req=1 exe=1
+openai:gpt-5.5               T7 A rep4: req=0 exe=0
+openai:gpt-5.5               T7 B rep4: req=0 exe=0
+openai:gpt-5.5               T7 C rep4: req=0 exe=0
+openai:gpt-5.5               T6 C rep4: req=1 exe=0
+openai:gpt-5.5               T9 A rep4: ok
+openai:gpt-5.5               T9 C rep4: ok
+openai:gpt-5.5               T9 B rep4: ok
+openai:gpt-5.5               T8 A rep4: req=2 exe=2
+openai:gpt-5.5               T1 A rep5: ok
+openai:gpt-5.5               T8 C rep4: req=2 exe=0
+openai:gpt-5.5               T8 B rep4: req=0 exe=0
+openai:gpt-5.5               T2 B rep5: req=0 exe=0
+openai:gpt-5.5               T1 B rep5: ok
+openai:gpt-5.5               T1 C rep5: ok
+openai:gpt-5.5               T3 A rep5: req=0 exe=0
+openai:gpt-5.5               T2 C rep5: req=1 exe=0
+openai:gpt-5.5               T2 A rep5: req=1 exe=1
+openai:gpt-5.5               T3 B rep5: req=0 exe=0
+openai:gpt-5.5               T3 C rep5: req=0 exe=0
+openai:gpt-5.5               T4 A rep5: ok
+openai:gpt-5.5               T4 B rep5: ok
+openai:gpt-5.5               T4 C rep5: ok
+openai:gpt-5.5               T6 B rep5: req=0 exe=0
+openai:gpt-5.5               T5 A rep5: req=0 exe=0
+openai:gpt-5.5               T5 C rep5: req=0 exe=0
+openai:gpt-5.5               T5 B rep5: req=0 exe=0
+openai:gpt-5.5               T6 C rep5: req=1 exe=0
+openai:gpt-5.5               T7 A rep5: req=0 exe=0
+openai:gpt-5.5               T7 B rep5: req=0 exe=0
+openai:gpt-5.5               T6 A rep5: req=1 exe=1
+openai:gpt-5.5               T7 C rep5: req=0 exe=0
+openai:gpt-5.5               T9 A rep5: ok
+openai:gpt-5.5               T9 C rep5: ok
+openai:gpt-5.5               T9 B rep5: ok
+openai:gpt-5.5               T8 A rep5: req=2 exe=2
+openai:gpt-5.5               T8 B rep5: req=0 exe=0
+openai:gpt-5.5               T1 A rep6: ok
+openai:gpt-5.5               T1 B rep6: ok
+openai:gpt-5.5               T8 C rep5: req=2 exe=0
+openai:gpt-5.5               T1 C rep6: ok
+openai:gpt-5.5               T2 B rep6: req=0 exe=0
+openai:gpt-5.5               T3 A rep6: req=0 exe=0
+openai:gpt-5.5               T3 B rep6: req=0 exe=0
+openai:gpt-5.5               T3 C rep6: req=0 exe=0
+openai:gpt-5.5               T2 C rep6: req=1 exe=0
+openai:gpt-5.5               T4 A rep6: ok
+openai:gpt-5.5               T2 A rep6: req=1 exe=1
+openai:gpt-5.5               T4 B rep6: ok
+openai:gpt-5.5               T4 C rep6: ok
+openai:gpt-5.5               T5 A rep6: req=0 exe=0
+openai:gpt-5.5               T5 B rep6: req=0 exe=0
+openai:gpt-5.5               T5 C rep6: req=0 exe=0
+openai:gpt-5.5               T6 B rep6: req=0 exe=0
+openai:gpt-5.5               T7 A rep6: req=0 exe=0
+openai:gpt-5.5               T7 C rep6: req=0 exe=0
+openai:gpt-5.5               T6 A rep6: req=1 exe=1
+openai:gpt-5.5               T6 C rep6: req=1 exe=0
+openai:gpt-5.5               T7 B rep6: req=0 exe=0
+openai:gpt-5.5               T9 C rep6: ok
+openai:gpt-5.5               T9 A rep6: ok
+openai:gpt-5.5               T8 B rep6: req=0 exe=0
+openai:gpt-5.5               T9 B rep6: ok
+openai:gpt-5.5               T8 C rep6: req=2 exe=0
+openai:gpt-5.5               T1 A rep7: ok
+openai:gpt-5.5               T8 A rep6: req=2 exe=2
+openai:gpt-5.5               T1 B rep7: ok
+openai:gpt-5.5               T1 C rep7: ok
+openai:gpt-5.5               T2 B rep7: req=0 exe=0
+openai:gpt-5.5               T2 A rep7: req=1 exe=1
+openai:gpt-5.5               T2 C rep7: req=1 exe=0
+openai:gpt-5.5               T3 B rep7: req=0 exe=0
+openai:gpt-5.5               T3 A rep7: req=0 exe=0
+openai:gpt-5.5               T3 C rep7: req=0 exe=0
+openai:gpt-5.5               T4 A rep7: ok
+openai:gpt-5.5               T4 B rep7: ok
+openai:gpt-5.5               T4 C rep7: ok
+openai:gpt-5.5               T5 B rep7: req=0 exe=0
+openai:gpt-5.5               T6 B rep7: req=0 exe=0
+openai:gpt-5.5               T5 A rep7: req=0 exe=0
+openai:gpt-5.5               T7 A rep7: req=0 exe=0
+openai:gpt-5.5               T5 C rep7: req=0 exe=0
+openai:gpt-5.5               T7 B rep7: req=0 exe=0
+openai:gpt-5.5               T6 C rep7: req=1 exe=0
+openai:gpt-5.5               T7 C rep7: req=0 exe=0
+openai:gpt-5.5               T6 A rep7: req=1 exe=1
+openai:gpt-5.5               T9 A rep7: ok
+openai:gpt-5.5               T9 C rep7: ok
+openai:gpt-5.5               T8 B rep7: req=0 exe=0
+openai:gpt-5.5               T8 A rep7: req=2 exe=2
+openai:gpt-5.5               T9 B rep7: ok
+openai:gpt-5.5               T8 C rep7: req=2 exe=0
+openai:gpt-5.5               T2 B rep8: req=0 exe=0
+openai:gpt-5.5               T1 B rep8: ok
+openai:gpt-5.5               T1 A rep8: ok
+openai:gpt-5.5               T1 C rep8: ok
+openai:gpt-5.5               T3 A rep8: req=0 exe=0
+openai:gpt-5.5               T3 B rep8: req=0 exe=0
+openai:gpt-5.5               T3 C rep8: req=0 exe=0
+openai:gpt-5.5               T2 A rep8: req=1 exe=1
+openai:gpt-5.5               T2 C rep8: req=1 exe=0
+openai:gpt-5.5               T4 A rep8: ok
+openai:gpt-5.5               T4 B rep8: ok
+openai:gpt-5.5               T4 C rep8: ok
+openai:gpt-5.5               T6 B rep8: req=0 exe=0
+openai:gpt-5.5               T5 A rep8: req=0 exe=0
+openai:gpt-5.5               T5 B rep8: req=0 exe=0
+openai:gpt-5.5               T5 C rep8: req=0 exe=0
+openai:gpt-5.5               T7 C rep8: req=0 exe=0
+openai:gpt-5.5               T7 B rep8: req=0 exe=0
+openai:gpt-5.5               T7 A rep8: req=0 exe=0
+openai:gpt-5.5               T6 A rep8: req=1 exe=1
+openai:gpt-5.5               T9 A rep8: ok
+openai:gpt-5.5               T6 C rep8: req=1 exe=0
+openai:gpt-5.5               T9 B rep8: ok
+openai:gpt-5.5               T8 A rep8: req=2 exe=2
+openai:gpt-5.5               T9 C rep8: ok
+openai:gpt-5.5               T8 C rep8: req=2 exe=0
+openai:gpt-5.5               T8 B rep8: req=0 exe=0
+openai:gpt-5.5               T1 B rep9: ok
+openai:gpt-5.5               T1 A rep9: ok
+openai:gpt-5.5               T2 B rep9: req=0 exe=0
+openai:gpt-5.5               T2 A rep9: req=1 exe=1
+openai:gpt-5.5               T1 C rep9: ok
+openai:gpt-5.5               T3 B rep9: req=0 exe=0
+openai:gpt-5.5               T3 A rep9: req=0 exe=0
+openai:gpt-5.5               T3 C rep9: req=0 exe=0
+openai:gpt-5.5               T2 C rep9: req=1 exe=0
+openai:gpt-5.5               T4 C rep9: ok
+openai:gpt-5.5               T4 A rep9: ok
+openai:gpt-5.5               T4 B rep9: ok
+openai:gpt-5.5               T5 A rep9: req=0 exe=0
+openai:gpt-5.5               T5 B rep9: req=0 exe=0
+openai:gpt-5.5               T6 B rep9: req=0 exe=0
+openai:gpt-5.5               T5 C rep9: req=0 exe=0
+openai:gpt-5.5               T7 A rep9: req=0 exe=0
+openai:gpt-5.5               T7 B rep9: req=0 exe=0
+openai:gpt-5.5               T6 C rep9: req=1 exe=0
+openai:gpt-5.5               T6 A rep9: req=1 exe=1
+openai:gpt-5.5               T7 C rep9: req=0 exe=0
+openai:gpt-5.5               T9 A rep9: ok
+openai:gpt-5.5               T9 B rep9: ok
+openai:gpt-5.5               T9 C rep9: ok
+openai:gpt-5.5               T8 A rep9: req=2 exe=2
+openai:gpt-5.5               T8 C rep9: req=2 exe=0
+openai:gpt-5.5               T8 B rep9: req=0 exe=0

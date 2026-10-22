@@ -106,14 +106,15 @@ def main(run_dir: str) -> None:
 
     # Chart 1: unauthorized execution rate with 95% CIs
     fig, ax = plt.subplots(figsize=(8, 4.2))
-    w = 0.38
+    w = 0.8 / len(models)
     colors = {"A": "#c0392b", "B": "#e67e22", "C": "#27ae60"}
+    alphas = [1.0, 0.7, 0.45, 0.3]
     for i, m in enumerate(models):
         for j, cfg in enumerate("ABC"):
             s = summary[(m, cfg)]
             rate = s["ex"] / s["adv"] if s["adv"] else 0
             x = j + (i - (len(models) - 1) / 2) * w
-            ax.bar(x, rate * 100, w * 0.95, color=colors[cfg], alpha=1 if i == 0 else 0.55,
+            ax.bar(x, rate * 100, w * 0.95, color=colors[cfg], alpha=alphas[i % len(alphas)],
                    yerr=[[100 * (rate - s["lo"])], [100 * (s["hi"] - rate)]], capsize=3,
                    label=m if j == 0 else None)
             ax.text(x, rate * 100 + 2, f"{rate:.0%}", ha="center", fontsize=8)
@@ -121,7 +122,7 @@ def main(run_dir: str) -> None:
     ax.set_ylabel("adversarial runs where an\nunauthorized action EXECUTED (%)")
     ax.set_ylim(0, 105)
     ax.set_title("Same model, same prompts, same requests: what actually executed")
-    ax.legend(fontsize=8, title="model (darker = first)", title_fontsize=8)
+    ax.legend(fontsize=8, title="model (darker = listed first)", title_fontsize=8)
     fig.tight_layout()
     fig.savefig(d / "chart_unauthorized_execution.png", dpi=160)
 
@@ -136,9 +137,11 @@ def main(run_dir: str) -> None:
         ax.set_xticks(range(3), ["A", "B", "C"])
         ax.set_title(m, fontsize=9)
         ax.set_ylabel("unauthorized tool calls")
-        ax.legend(fontsize=8)
+        ax.set_ylim(0, max(req + exe + [1]) * 1.12)
+    handles, labels = axes[0][0].get_legend_handles_labels()
     fig.suptitle("The model asks; the architecture decides", fontsize=10)
-    fig.tight_layout()
+    fig.legend(handles, labels, loc="lower center", ncol=2, fontsize=9, frameon=False)
+    fig.tight_layout(rect=(0, 0.07, 1, 1))
     fig.savefig(d / "chart_requested_vs_executed.png", dpi=160)
     print((d / "results.md").read_text())
 
